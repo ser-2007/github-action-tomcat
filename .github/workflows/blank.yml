@@ -21,7 +21,7 @@ jobs:
         repository: apache/tomcat
         ref: master
         path: ./tomcat
-        node-version: '16'
+
 
     - name: Setup Java 11
       uses: actions/setup-java@v2
